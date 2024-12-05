@@ -13,15 +13,45 @@
 ### Pre-FRQ Practice
 
 ## Identify the Algorithm present in the JavaScript Files. 
+```JavaScript
+  function removeToDo() {
+    const specificCard = this.parentElement;
+    const specificCardText =
+      specificCard.querySelector(".to-do-card").textContent;
+
+    for (let i = 0; i < ToDoItems.length; i++) {
+      if (ToDoItems[i] === specificCardText) {
+        ToDoItems.splice(i, 1);
+        break;
+      }
+    }
+    specificCard.remove();
+  }
+```
 ### Aspects of Algorithm
 Sequencing
+``` JavaScript
+      if (ToDoItems[i] === specificCardText) {
+        ToDoItems.splice(i, 1);
+        break;
+      }
+    specificCard.remove(); 
+```
 Selection 
+``` JavaScript
+specificCard.querySelector(".to-do-card").textContent;
+```
 Iteration
+``` JavaScript
+for (let i = 0; i < ToDoItems.length; i++)
+```
 
 
 
 ### Question 1
 Programs accept input to achieve their intended functionality. **Describe at least one valid input to your program and what your program does with that input.**
+
+Ans: It takes the value of the user input, stores it in an object, and pushes the object into a list called 'Inputted ToDo', which is used in a separate function to display the list.
 
 - Write your responses to this question only on the designated pages in the separate Written Response booklet.
 - If there are multiple parts to this question, write the part letter with your response.
