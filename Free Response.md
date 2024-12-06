@@ -54,6 +54,7 @@ Programs accept input to achieve their intended functionality. **Describe at lea
 Ans: It takes the value of the user input, stores it in an object, and pushes the object into a list called 'Inputted ToDo', which is used in a separate function to display the list.
 
 - Write your responses to this question only on the designated pages in the separate Written Response booklet.
+
 - If there are multiple parts to this question, write the part letter with your response.
 
 ---
@@ -63,6 +64,8 @@ Refer to your Personalized Project Reference when answering this question.
 
 #### Part (a):
 Consider the first iteration statement included in the Procedure section of your Personalized Project Reference. **Describe what is being accomplished by the code in the body of the iteration statement.**
+
+
 
 #### Part (b):
 Consider the procedure identified in part (i) of the Procedure section of your Personalized Project Reference.

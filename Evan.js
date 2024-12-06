@@ -29,7 +29,7 @@ function displayToDoList(array) {
   function removeToDo() {
     const specificCard = this.parentElement;
     const specificCardText =
-      specificCard.querySelector(".to-do-card").textContent;
+      specificCard.querySelector(".to-do-card").textContent; 
 
     for (let i = 0; i < ToDoItems.length; i++) {
       if (ToDoItems[i] === specificCardText) {
