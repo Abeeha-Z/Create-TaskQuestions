@@ -39,7 +39,9 @@ Sequencing
 ```
 Selection 
 ``` JavaScript
-specificCard.querySelector(".to-do-card").textContent;
+if (ToDoItems[i] === specificCardText)
+        ToDoItems.splice(i, 1);
+        break;
 ```
 Iteration
 ``` JavaScript
@@ -65,6 +67,7 @@ Refer to your Personalized Project Reference when answering this question.
 #### Part (a):
 Consider the first iteration statement included in the Procedure section of your Personalized Project Reference. **Describe what is being accomplished by the code in the body of the iteration statement.**
 
+the iteration statement removes an item on the To Do List 
 
 
 #### Part (b):
